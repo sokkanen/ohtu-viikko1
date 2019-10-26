@@ -70,6 +70,9 @@ public class VarastoTest {
         assertEquals(2, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
 
+    /**
+     * Adding negative amount should not affect Varasto
+     */
     @Test
     public void addingNegativeAmountDoesNothing() {
         varasto.lisaaVarastoon(-5);
