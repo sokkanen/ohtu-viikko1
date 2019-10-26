@@ -32,7 +32,7 @@ public class VarastoTest {
 
     @Test
     public void negativeCapasityResultsInZeroVarasto(){
-        Varasto var = new Varasto(10);
+        Varasto var = new Varasto(-10);
         assertEquals(0.0, var.getTilavuus(), vertailuTarkkuus);
     }
 
