@@ -19,8 +19,7 @@
             <property name="max" value="3"/>
         </module>
     </module>
-    <module name="Checker">
-        <property name="severity" value="warning"/>
-    </module>
 
+    <property name="severity" value="warning"/>
+    
 </module>
